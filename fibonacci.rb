@@ -14,7 +14,6 @@ def fibs(number)
 end
 
 def fibs_rec(result = [0,1], number)
-  fibonacci_array = []
   if result.length >= number
     return result
   else
